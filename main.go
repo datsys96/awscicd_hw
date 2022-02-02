@@ -19,7 +19,7 @@ type Book struct {
 	Author string `json:"author"`
         Image  string `json:"image"`
 }
-
+#commandaaaa
 func list(req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 	cfg, err := config.LoadDefaultConfig(context.TODO())
 	if err != nil {
