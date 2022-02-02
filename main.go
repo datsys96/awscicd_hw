@@ -24,7 +24,7 @@ type Res struct {
 	Rows  []Book `json:"rows"`
 	Total int    `json:"total"`
 }
-
+#tesf
 func list(req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 	cfg, err := config.LoadDefaultConfig(context.TODO())
 	if err != nil {
