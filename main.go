@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue"
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
 )
-
+//test bla bka 
 type Book struct {
 	Id     string `json:"id"`
 	Name   string `json:"name"`
