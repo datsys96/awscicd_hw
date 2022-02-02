@@ -19,7 +19,7 @@ type Book struct {
 	Author string `json:"author"`
         Image  string `json:"image"`
 }
-
+//day lad dong testr
 type Res struct {
 	Rows  []Book `json:"rows"`
 	Total int    `json:"total"`
